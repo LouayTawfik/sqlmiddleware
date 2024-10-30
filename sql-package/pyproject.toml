@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sql-inspector-tool"
+version = "1.0.4"
+description = "A Django middleware package to print out queries to the terminal"
+readme = "README.rst"
+license = { text = "MIT" }
+authors = [
+    { name = "CodeBreaker", email = "louay.casper@gmail.com" }
+]
+
+dependencies = [
+    "Pygments>=2.18.0", "sqlparse>=0.5.1",
+]
+
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["sql-inspector-tool"]
+
+[project.urls]
+Homepage = "https://github.com/LouayTawfik/sqlmiddleware"
