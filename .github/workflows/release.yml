@@ -10,10 +10,10 @@ jobs:
 
     steps:
     - name: Checkout Source
-      uses: action/checkout@v3
+      uses: actions/checkout@v3
 
     -name: Build Package
-      run:
+      run: |
         python3 -m pip install --upgrade pip build
         python3 -m build
 
