@@ -4,12 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sql-inspector-tool"
-version = "1.0.5"
+version = "1.0.1"
 description = "A Django middleware package to print out queries to the terminal"
-readme = "README.rst"
 license = { text = "MIT" }
 authors = [
-    { name = "CodeBreaker", email = "louay.casper@gmail.com" }
+    { name = "CodeBreaker" }
 ]
 
 dependencies = [
@@ -17,6 +16,10 @@ dependencies = [
 ]
 
 requires-python = ">=3.10"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
 
 [tool.setuptools.packages.find]
 include = ["sql-inspector-tool"]
