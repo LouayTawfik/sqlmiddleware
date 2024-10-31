@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sql-inspector-tool"
-version = "1.0.4"
+version = "1.0.5"
 description = "A Django middleware package to print out queries to the terminal"
 readme = "README.rst"
 license = { text = "MIT" }
