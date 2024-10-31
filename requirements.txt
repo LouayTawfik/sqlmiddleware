@@ -13,7 +13,6 @@ pytest==8.3.3
 pytest-django==4.9.0
 python-dateutil==2.9.0.post0
 six==1.16.0
-sql-inspector-tool==1.0.4
 sqlparse==0.5.1
 tomli==2.0.2
 typing_extensions==4.12.2
