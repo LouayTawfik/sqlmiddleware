@@ -12,10 +12,10 @@ jobs:
     - name: Checkout Source
       uses: actions/checkout@v3
 
-    -name: Build Package
-     run: |
-       python3 -m pip install --upgrade pip build
-       python3 -m build
+    - name: Build Package
+      run: |
+        python3 -m pip install --upgrade pip build
+        python3 -m build
 
     - name: Publish to TestPyPI
       uses: pypa/gh-action-pypi-publish@release/v1
